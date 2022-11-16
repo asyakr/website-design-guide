@@ -1,0 +1,103 @@
+body {
+    margin: 0 10%;
+    box-sizing: border-box;
+}
+
+.header {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.colors, .fonts, .text-styles {
+    border: 5px solid lightgray;
+    margin: 30px 0;
+}
+
+.circles, .color-numbers{
+    text-align: center;
+}
+
+.color {
+    display: inline-block;
+    margin: 30px;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.color-text {
+    display: inline-block;
+    margin: 30px;
+    height: auto;
+    width: 180px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.header-text {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.c1 {
+    background-color: #3C2317;
+}
+
+.c2 {
+    background-color: #628E90;
+}
+
+.c3 {
+    background-color: #B4CDE6;
+}
+
+.c4 {
+    background-color: #F5EFE6;
+}
+
+.font-header {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+p.sentence{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.fonts p {
+    margin-left: 20px;
+}
+
+.cinzel {
+    font-family: Cinzel, serif;
+}
+
+.spectral {
+    font-family: Spectral, serif;
+}
+
+.text-styles h1 {
+    font-family: Cinzel, serif;
+    font-size: 30px;
+}
+
+.text-styles h2 {
+    font-family: Spectral, serif;
+    font-size: 25px;
+}
+
+.text-styles p {
+    font-family: Spectral, serif;
+    font-size: 20px;
+}
+
+.text-styles h1, h2, p {
+    margin-left: 20px;
+}
+
+li {
+    font-size: 18px;
+}
